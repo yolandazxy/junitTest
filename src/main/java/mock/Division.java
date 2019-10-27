@@ -1,3 +1,5 @@
+package mock;
+
 /**
  * @author xiaoyun
  * @description
@@ -15,4 +17,9 @@ public class Division {
             return a / b;
         }
     }
+
+    public Integer divid2(Integer a, Integer b, Integer c){
+        return divid(a, b) / c;
+    }
+
 }

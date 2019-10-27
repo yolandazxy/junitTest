@@ -1,4 +1,6 @@
-import com.sun.org.apache.xpath.internal.operations.Div;
+package mock;
+
+import mock.Division;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
