@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8ed2ea-8ff5-4537-a554-811996d75e6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mock/Division2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mock/Division2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mock/DivisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/DivisionTest.java" afterDir="false" />
     </list>
     <list id="58e06929-9ba3-43a3-bb8a-fd2846e970b8" name="mock case" comment="" />
@@ -24,7 +25,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1305">
               <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
             </state>
           </provider>
@@ -42,7 +43,7 @@
       <file leaf-file-name="TestDDRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testcase/TestDDRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="330">
               <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,8 +55,8 @@
       <file leaf-file-name="Division.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mock/Division.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="104">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,11 +64,20 @@
       <file leaf-file-name="DivisionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mock/DivisionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+            <state relative-caret-position="172">
+              <caret line="72" column="88" selection-start-line="72" selection-start-column="88" selection-end-line="72" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Division2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mock/Division2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -106,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Division.java" />
         <option value="$PROJECT_DIR$/src/main/java/mock/Division.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/mock/Division2.java" />
         <option value="$PROJECT_DIR$/src/test/java/mock/MockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mock/Division2.java" />
         <option value="$PROJECT_DIR$/src/test/java/mock/DivisionTest.java" />
       </list>
     </option>
@@ -152,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -216,7 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DivisionTest.divid2">
+  <component name="RunManager" selected="JUnit.DivisionTest.divid3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -316,6 +326,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DivisionTest.divid3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.DivisionTest" />
+      <option name="METHOD_NAME" value="divid3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="MockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitTest" />
       <extension name="coverage">
@@ -328,29 +361,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="mock" />
       <option name="MAIN_CLASS_NAME" value="mock.MockTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.testcase.ParamTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -401,19 +411,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ParamTest" />
       <item itemvalue="JUnit.DivisionTest" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.MockTest" />
       <item itemvalue="JUnit.DivisionTest.divid2" />
+      <item itemvalue="JUnit.DivisionTest.divid3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivisionTest.divid3" />
         <item itemvalue="JUnit.DivisionTest.divid2" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.MockTest" />
         <item itemvalue="JUnit.DivisionTest" />
-        <item itemvalue="JUnit.ParamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +448,8 @@
       <workItem from="1571328151220" duration="3647000" />
       <workItem from="1571836075216" duration="9552000" />
       <workItem from="1572167479493" duration="2699000" />
-      <workItem from="1573266375858" duration="3196000" />
+      <workItem from="1573266375858" duration="4292000" />
+      <workItem from="1573360133076" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="tdd division">
       <created>1572159381442</created>
@@ -472,24 +483,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2019.10.28 at 23h 37m 23s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisionTest_divid2 - 2019.10.30 at 08h 47m 33s.xml">
-      <configuration name="DivisionTest.divid2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MockTest - 2019.11.09 at 13h 19m 29s.xml">
-      <configuration name="MockTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.11.09 at 13h 20m 26s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.11.09 at 13h 22m 53s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisionTest_divid2 - 2019.11.09 at 13h 23m 22s.xml">
-      <configuration name="DivisionTest.divid2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DivisionTest_divid2 - 2019.11.09 at 13h 27m 13s.xml">
       <configuration name="DivisionTest.divid2" configurationId="JUnit" />
     </history-entry>
@@ -502,9 +495,27 @@
     <history-entry file="DivisionTest_divid2 - 2019.11.09 at 13h 38m 33s.xml">
       <configuration name="DivisionTest.divid2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DivisionTest_divid2 - 2019.11.09 at 14h 02m 17s.xml">
+      <configuration name="DivisionTest.divid2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionTest_divid2 - 2019.11.09 at 14h 03m 43s.xml">
+      <configuration name="DivisionTest.divid2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionTest_divid3 - 2019.11.10 at 12h 43m 25s.xml">
+      <configuration name="DivisionTest.divid3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionTest_divid3 - 2019.11.10 at 12h 43m 44s.xml">
+      <configuration name="DivisionTest.divid3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionTest_divid3 - 2019.11.10 at 12h 44m 06s.xml">
+      <configuration name="DivisionTest.divid3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionTest_divid3 - 2019.11.10 at 12h 45m 08s.xml">
+      <configuration name="DivisionTest.divid3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32693000" />
+    <option name="totallyTimeSpent" value="34717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,11 +540,11 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.33198708" weight="0.2924138" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4765751" visible="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6243942" weight="0.5305466" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4765751" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6243942" weight="0.24598071" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6687243" visible="true" weight="0.2980614" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6687243" visible="true" weight="0.3029079" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.33127573" side_tool="true" weight="0.15508886" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,8 +552,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" visible="true" weight="0.13085622" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -551,17 +562,17 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49596122" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49596122" visible="true" weight="0.32965517" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -571,10 +582,10 @@
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4983845" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50403875" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.4951535" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -635,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,12 +881,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/testcase/BaseTest.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/testcase/BaseTest.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testcase/TestDDRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="330">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -895,16 +892,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-DivisionTest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-DivisionTest.xml" />
+    <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html" />
     <entry file="file://$PROJECT_DIR$/target/classes/Division.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1305">
           <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
         </state>
       </provider>
@@ -951,34 +944,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/suitedemo/SuiteDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mock/Division.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="104">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mock/Division2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/suitedemo/SuiteDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mock/DivisionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        <state relative-caret-position="172">
+          <caret line="72" column="88" selection-start-line="72" selection-start-column="88" selection-end-line="72" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
