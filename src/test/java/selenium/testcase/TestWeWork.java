@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import selenium.page.App;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by xiaoyun on 2019/11/17.
  */
@@ -16,6 +18,7 @@ public class TestWeWork {
     @Test
     public void testStart(){
         WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); //隐式等待5s
         driver.get(url);
         driver.manage().window().maximize();
         driver.findElement(By.linkText("企业登录")).click();
@@ -23,13 +26,14 @@ public class TestWeWork {
         System.out.println(driver.manage().getCookies());
 
         driver.manage().addCookie(new Cookie("wwrtx.refid", "29052993011722381"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "AtSYchEUXUH08H_B6V_5V4SiWqbFjRzhexgoo2fu1l3TZP3SvE0TWlI_3S-6iy4V"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "AtSYchEUXUH08H_B6V_5V0TPEItKst8yRBg5gLzo2aN5DUGBOlOdxaaHxVjx9wJ1"));
 
         driver.navigate().refresh();
         App.driver=driver;
 
         App app = new App();
-        app.toMemberAdd().add(); //跳转添加成员页面
+        String phone = "15050000001";
+        app.toMemberAdd().add(phone, phone, phone); //跳转添加成员页面
 //        assertThat();
 
     }
