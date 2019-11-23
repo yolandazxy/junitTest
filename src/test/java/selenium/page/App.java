@@ -17,7 +17,7 @@ public class App extends BasePage{
     public App loginWithCookie(){
         String url = "https://work.weixin.qq.com/";
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); //隐式等待5s
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS); //隐式等待3s
         driver.get(url);
         driver.manage().window().maximize();
         driver.findElement(By.linkText("企业登录")).click();
@@ -25,7 +25,7 @@ public class App extends BasePage{
         System.out.println(driver.manage().getCookies());
 
         driver.manage().addCookie(new Cookie("wwrtx.refid", "29052993011722381"));
-        driver.manage().addCookie(new Cookie("wwrtx.sid", "AtSYchEUXUH08H_B6V_5V0TPEItKst8yRBg5gLzo2aN5DUGBOlOdxaaHxVjx9wJ1"));
+        driver.manage().addCookie(new Cookie("wwrtx.sid", "AtSYchEUXUH08H_B6V_5VxRsgONopd8jb0B2H3AaI0H1EzleejkvxdAf0gQlWyZv"));
 
         driver.navigate().refresh();
         App.driver=driver;
@@ -33,11 +33,13 @@ public class App extends BasePage{
 
     }
     public ContactPage toContact(){
+        findElement(By.linkText("通讯录")).click();
         return new ContactPage();
     }
 
-    public ContactPage toMemberAdd(){
+    public ContactPage toMemberAdd() throws InterruptedException {
         //find click
+        Thread.sleep(2000);
         findElement(By.linkText("添加成员")).click();
         return new ContactPage();
     }

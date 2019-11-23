@@ -1,5 +1,6 @@
 package selenium.testcase;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -16,17 +17,33 @@ import java.util.concurrent.TimeUnit;
  */
 public class TestWeWork {
     public static App app;
+
     @BeforeClass
     public static void beforeAll(){
         app = new App();
         app.loginWithCookie();
-    }
-    @Test
-    public void testStart(){
-        String phone = "15050000001";
-        app.toMemberAdd().add(phone, phone, phone); //跳转添加成员页面
-//        assertThat();
 
+        String phone = "15050000001";
+        app.toContact().delete(phone);
+    }
+
+    @Test
+    public void add() throws InterruptedException {
+        String phone = "15050000001";
+        app.toMemberAdd().add(phone, phone, phone); //跳转添加成员页面并添加
+//        assertThat();
+    }
+
+    @Test
+    public void delete() throws InterruptedException {
+        String phone = "12345678901";
+        app.toMemberAdd().add(phone, phone, phone).delete(phone); //跳转添加成员页面
+
+    }
+
+    @AfterClass
+    public static void afterAll() throws InterruptedException {
+        app.quit();
     }
 
 
