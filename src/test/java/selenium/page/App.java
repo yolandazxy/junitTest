@@ -37,9 +37,13 @@ public class App extends BasePage{
         return new ContactPage();
     }
 
-    public ContactPage toMemberAdd() throws InterruptedException {
+    public ContactPage toMemberAdd(){
         //find click
-        Thread.sleep(2000);
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         findElement(By.linkText("添加成员")).click();
         return new ContactPage();
     }

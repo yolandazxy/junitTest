@@ -28,17 +28,22 @@ public class TestWeWork {
     }
 
     @Test
-    public void add() throws InterruptedException {
+    public void add() {
         String phone = "15050000001";
         app.toMemberAdd().add(phone, phone, phone); //跳转添加成员页面并添加
 //        assertThat();
     }
 
     @Test
-    public void delete() throws InterruptedException {
+    public void delete() {
         String phone = "12345678901";
         app.toMemberAdd().add(phone, phone, phone).delete(phone); //跳转添加成员页面
 
+    }
+
+    @Test
+    public void deleteCurrentPage(){
+        app.toContact().deleteCurrentPage();
     }
 
     @AfterClass
