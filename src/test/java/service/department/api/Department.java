@@ -40,10 +40,10 @@ public class Department {
                 .queryParam("access_token", Common.getInstance().getToken())   //post下请求方法需为queryParam
                 .contentType(ContentType.JSON)
                 .body(data)
-                .when()
+        .when()
                 .log().all()
                 .post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
-                .then().log().all()
+        .then().log().all()
                 .body("errcode", equalTo(0))
                 .extract().response();
     }

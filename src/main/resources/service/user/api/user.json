@@ -1,0 +1,40 @@
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userid": "{{userid}}",
+  "name": "{{name}}",
+  "department": [
+    2
+  ],
+  "position": "测试工程师",
+  "mobile": "{{mobile}}",
+  "gender": "2",
+  "email": "{{mobile}}@qq.com",
+  "avatar": "",
+  "status": 4,
+  "isleader": 0,
+  "extattr": {
+    "attrs": [
+
+    ]
+  },
+  "telephone": "",
+  "enable": 1,
+  "hide_mobile": 0,
+  "order": [
+    0
+  ],
+  "external_profile": {
+    "external_attr": [
+
+    ],
+    "external_corp_name": ""
+  },
+  "qr_code": "https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc0d9b82a5a7809642",
+  "alias": "{{name}}",
+  "is_leader_in_dept": [
+    0
+  ],
+  "address": "上海市蒲松北路60号",
+  "thumb_avatar": ""
+}
