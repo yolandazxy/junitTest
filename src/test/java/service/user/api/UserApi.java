@@ -32,6 +32,7 @@ public class UserApi extends BaseApi{
                 .post("https://qyapi.weixin.qq.com/cgi-bin/user/get")
                 .then().log().all()
                 .extract().response();*/
+        return null;
     }
 
     public Response getDepartMem(int department_id, boolean fetch_child) {

@@ -21,7 +21,7 @@ public class BaseApi {
     public Response parseSteps() {
         String method = Thread.currentThread().getStackTrace()[2].getMethodName();
         System.out.println(method);
-
+/*
         if(model.methods.entrySet().isEmpty()) {
             System.out.println("pom first load");
             String path = "/" + this.getClass().getCanonicalName().replace('.', '/') + ".yaml";
@@ -33,8 +33,8 @@ public class BaseApi {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
-        return (Response) model.run(method, params);
+        }*/
+        return null;//(Response) model.run(method, params);
 
 
     }
