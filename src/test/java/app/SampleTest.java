@@ -30,7 +30,8 @@ public class SampleTest {
         //desiredCapabilities.setCapability("app", "/Users/xiaoyun/learning/com.xueqiu.android_12.3.1_246.apk");
         desiredCapabilities.setCapability("appPackage", "com.xueqiu.android");
         desiredCapabilities.setCapability("appActivity", ".view.WelcomeActivityAlias");
-        desiredCapabilities.setCapability("noReset", true);
+        desiredCapabilities.setCapability("noReset", false);
+        desiredCapabilities.setCapability("autoGrantPermissions", true);
 
         URL remoteUrl = new URL("http://localhost:4723/wd/hub");
 
