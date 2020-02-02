@@ -11,6 +11,8 @@ import org.junit.runners.Parameterized;
 
 import java.net.MalformedURLException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -32,16 +34,26 @@ public class TestSearch {
     }
 
     @Parameterized.Parameters
-    public static List<String> data() {
+    public static Collection<Object[]> data() {
+        return Arrays.asList(new Object[][] {
+                { "alibaba", 100f },
+                { "xiaomi", 8f },
+                { "jd", 33f }
+        });
+        /*
         List<String> stocks = new ArrayList<>();
         stocks.add("alibaba");
         stocks.add("xiaomi");
         stocks.add("jd");
         return stocks;
+        */
     }
 
-    @Parameterized.Parameter
+    @Parameterized.Parameter(0)
     public String stock;
+
+    @Parameterized.Parameter(1)
+    public  Float price;
 
 
     @Before
