@@ -64,7 +64,7 @@ public class TestSearch {
 
     @Test
     public void search(){
-        assertThat(searchPage.search(stock).getCurrentPrice(), greaterThan(100f));
+        assertThat(searchPage.search(stock).getCurrentPrice(), greaterThan(price));
     }
 
     @After

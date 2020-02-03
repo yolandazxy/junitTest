@@ -50,4 +50,23 @@ public class BasePage {
             }
         });
     }
+
+    private static void handleAlertByPageSource(){
+        // todo:xpath 标记、定位
+        String xml = driver.getPageSource();
+        List<String> alertBoxs = new ArrayList<>();
+
+        alertBoxs.add("com.xueqiu.android:id/tv_agree");
+        alertBoxs.add("bbb");
+
+        alertBoxs.forEach(alert -> {
+            if(xml.contains(alert)){
+                driver.findElement(By.id(alert))
+            }
+            List<WebElement> ads = driver.findElements(adsLocator);
+            if (ads.size() >= 1) {
+                ads.get(0).click();
+            }
+        });
+    }
 }
